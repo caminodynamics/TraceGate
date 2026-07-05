@@ -1,0 +1,9 @@
+{
+  "rules": [
+    {
+      "name": "EU Premium Safe Mode Rule",
+      "condition": "user_tier == 'premium' AND region == 'EU' AND feature_flag_safe_mode == true",
+      "decision": "DENY"
+    }
+  ]
+}
